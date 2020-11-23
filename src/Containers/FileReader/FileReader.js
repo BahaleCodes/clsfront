@@ -26,7 +26,7 @@ function FileUpload() {
           'Content-Type': 'application/json',
           'Authorization': `Token ${token['theToken']}`,
         }
-        axios.post('http://127.0.0.1:8000/api/report/', report, {headers})
+        axios.post('https://clsbackend.herokuapp.com/api/report/', report, {headers})
         .then(response => console.log(response))
     }
     return (
