@@ -1,4 +1,28 @@
 .FileReader{
-    text-align: center;
-    padding: 10px;
-  }
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+}
+
+.FileReader p, h1, label{
+  color: gold;
+}
+.FileReader button{
+  color: gold;
+  background-color: black;
+  border: 3px solid gold;
+  padding: 20px;
+  width: 200px;
+  font-size: 14px;
+}
+.FileReader input{
+  padding: 10px;
+  width: 180px;
+  color: silver;
+  font-size: 14px;
+  background-color: black;
+  border: 2px solid gold;
+}
