@@ -5,7 +5,7 @@
     position: fixed;
     text-align: center;
 }
-.Auth h1, label{
+.Auth h1, label, p{
     color: gold;
 }
 .Auth button{
